@@ -3,11 +3,11 @@ import './header.css';
 
 export const Header = () => {
     return (
-        <header>
+        <div className="header">
             <div className="banner">
-                <h1>Welcome to Our Cinema</h1>
-                <p>Enjoy the best movies with us!</p>
+                <h1>Bienvenido a nuestro cine</h1>
+                <p>Disfrute de las mejores peliculas !</p>
             </div>            
-        </header>
+        </div>
     );
 };
